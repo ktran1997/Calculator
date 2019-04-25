@@ -1,12 +1,31 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(numbers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: fixed;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.calculator-body {
+	text-align: center;
+}
+
+.result {
+	background: lightgrey;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 2px;
+	vertical-align: middle;
+	position: relative;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
